@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Neutraface;
+    src: url('../font_neutraface/Neutraface\ 2\ Disp\ Greek\ Inline.otf');
+}
+
+@font-face {
+    font-family: Neutraface_medium;
+    src: url('../font_neutraface/Neutraface\ 2\ Disp\ Greek\ Medi.otf');
+}
+
+body {
+    background-image: url('../img/background.png');
+    margin: 25px 0px;
+}
+
+#container {
+    max-width: 1356px;
+    width: calc(100% - 44px);
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+/* header */
+
+header {
+    background-image: url('../img/header.png');
+    text-align: center;
+}
+
+header h1 {
+    float: left;
+    font-family: "Neutraface";
+    height: 26px;
+    text-transform: uppercase;
+    margin: 38px;
+}
+
+header nav {
+    overflow: auto;
+}
+
+header nav ul {
+    float: right;
+    margin-right: 38px;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-family: 'Neutraface';
+    height: 16px;
+    margin-top: 38px;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 0px 22px;
+}
+
+
+/*  section 1 */
+
+#our_story {
+    background-image: url('../img/IMAGE\ 1.png');
+    height: 634px;
+    width: 59.80825958702065%;
+    opacity: 0.7;
+    margin-left: 549px;
+}
+
+#our_story_text {
+    background-image: url('../img/herbas.png');
+    height: 634px;
+    width: 549px;
+    float: left;
+    background-color: white;
+}
+
+
+/* section 2 */
+
+#fresh {
+    background-image: url('../img/fresh.png');
+    width: 69.10029498525073%;
+    height: 678px;
+    opacity: 0.7;
+    float: left;
+}
+
+#section2 .content {
+    float: right;
+    width: 30.899705014749262%;
+    background-color: white;
+    text-align: center;
+    height: 678px;
+    background-image: url('../img/herbas.png');
+}
+
+#section2 {
+    width: 100%;
+}
+
+
+/* helper classes */
+
+.opacity {
+    opacity: 0.3;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    color: tomato;
+    opacity: 54%;
+}
+
+.content {
+    padding-top: 121px;
+}
+
+.content h2 {
+    font-size: 37px;
+    font-family: "Neutraface";
+    text-align: center;
+}
+
+.content p {
+    margin: 0 auto;
+    margin-top: 10.236220472440944%;
+    font-family: 'Neutraface_Medium';
+    width: 69.1743119266055%;
+    font-size: 17px;
+}
+
+
+/* doel : context * 100 */
+
+
+/* responsive calculator */
